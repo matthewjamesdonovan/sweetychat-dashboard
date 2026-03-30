@@ -7,9 +7,9 @@ const DATA = {
   total_media: 9452,
   total_reactions: 152373,
   top_posters: [
-    ["sara", 10586], ["ᕙ(░ಥ╭͜ʖ╮ಥ░)━☆ﾟ.*･｡ﾟ", 8840], ["🎨", 7571],
+    ["sara @krapea", 10586], ["casey_gleghorn", 8840], ["🎨", 7571],
     ["Alex Boland", 7336], ["esotericdirtbag", 7085], ["MoMA PS5", 6973],
-    ["Instagram User", 6772], ["sagas_ig_profile", 4943], ["inspectorjanko", 4675],
+    ["saga", 6772], ["sagas_ig_profile", 4943], ["inspectorjanko", 4675],
     ["Andrés Bernal", 3545], ["dollie kyarn", 3093], ["lyss lester", 2807],
     ["Matthew J. Donovan", 2529], ["tera julia", 2482], ["Amir Faraji", 2093],
     ["Paul Tao", 2077], ["Jonathan Lockhart", 1999], ["masoncw", 1961],
@@ -23,9 +23,9 @@ const DATA = {
     ["kelly__clifton", 958],
   ],
   reactions_received: [
-    ["sara", 8346], ["🎨", 8269], ["inspectorjanko", 7735],
-    ["esotericdirtbag", 7726], ["Instagram User", 7343], ["Alex Boland", 7118],
-    ["ᕙ(░ಥ╭͜ʖ╮ಥ░)━☆ﾟ.*･｡ﾟ", 6457], ["sagas_ig_profile", 6175],
+    ["sara @krapea", 8346], ["🎨", 8269], ["inspectorjanko", 7735],
+    ["esotericdirtbag", 7726], ["saga", 7343], ["Alex Boland", 7118],
+    ["casey_gleghorn", 6457], ["sagas_ig_profile", 6175],
     ["MoMA PS5", 5159], ["dollie kyarn", 4131], ["Andrés Bernal", 3943],
     ["Matthew J. Donovan", 3535], ["Tara Sar", 3406], ["Paul Tao", 3200],
     ["lyss lester", 3097], ["Bella", 2888], ["stef sny", 2525],
@@ -67,8 +67,8 @@ const DATA = {
     { name: "Sun", msgs: 21300 },
   ],
   media_posters: [
-    ["ᕙ(░ಥ╭͜ʖ╮ಥ░)━☆ﾟ.*･｡ﾟ", 806], ["inspectorjanko", 720], ["Alex Boland", 696],
-    ["sara", 548], ["MoMA PS5", 469], ["Instagram User", 306],
+    ["casey_gleghorn", 806], ["inspectorjanko", 720], ["Alex Boland", 696],
+    ["sara @krapea", 548], ["MoMA PS5", 469], ["saga", 306],
     ["esotericdirtbag", 275], ["stef sny", 268], ["🎨", 255],
     ["Andrés Bernal", 229], ["Jonathan Lockhart", 193], ["masoncw", 189],
   ],
@@ -203,7 +203,7 @@ export default function App() {
           </ResponsiveContainer>
         </div>
         <Note>
-          sara leads with 10.6K messages (7.4%). Top 7 account for ~39% of all traffic.
+          sara @krapea leads with 10.6K messages (7.4%). Top 7 account for ~39% of all traffic.
           Founder Matthew J. Donovan ranks #13 — an active steward, not the dominant voice.
         </Note>
       </>)}
